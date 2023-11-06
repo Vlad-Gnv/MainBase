@@ -1,0 +1,42 @@
+html {
+    cursor: url(/images/html_cursor.png) 1 1, pointer;
+}
+.logo {
+    padding: 5px;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    width: 400px;
+    height: 1300px;
+    background: linear-gradient(#e6bf56, #c8dba4);
+    color: white;
+}
+
+.nav a {
+    cursor: url(/images/link_cursor.png) 1 1, pointer;
+    padding: 12px 12px 12px 48px;
+    display: block;
+}
+
+img {
+    cursor: url(/images/image_cursor.png) 1 1, pointer;
+}
+.nav {
+    height: 90%;
+    width: 90%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 60px;
+    background-color: rgb(21, 194, 87);
+}
+.nav .closebutt{
+    position:absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 50px;
+    font-size: 36px;
+}

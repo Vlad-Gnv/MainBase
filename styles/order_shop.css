@@ -1,0 +1,18 @@
+html {
+    cursor: url(/images/html_cursor.png) 1 1, pointer;
+}
+body {
+    font-family: "Roboto Mono", monospace;
+    width: 400px;
+    height: 1300px;
+    background: linear-gradient(#df7926, #e98383);
+    color: white;
+}
+
+a {
+    cursor: url(/images/link_cursor.png) 1 1, pointer
+}
+
+img {
+    cursor: url(/images/image_cursor.png) 1 1, pointer;
+}
